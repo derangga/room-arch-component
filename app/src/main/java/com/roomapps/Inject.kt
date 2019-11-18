@@ -5,7 +5,7 @@ import com.roomapps.database.WordDatabase
 import com.roomapps.database.WordRepos
 import com.roomapps.ui.MainViewModelFactory
 
-/** TODO: 5. Buat object class Inject
+/** TODO: 6. Buat object class Inject
  * Class ini digunakan untuk menyediakan depedency yang dibutuhkan  tiap-tiap class
  */
 object Inject {
