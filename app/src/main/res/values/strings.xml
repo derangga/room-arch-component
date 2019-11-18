@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RoomApps</string>
+    <string name="hint_word">Word…</string>
+    <string name="button_save">Save</string>
 </resources>

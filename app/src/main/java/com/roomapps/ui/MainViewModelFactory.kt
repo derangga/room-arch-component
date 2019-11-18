@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.roomapps.database.WordRepos
 
 
-/** TODO: 6. Buat class MainViewModelFactory extends ViewModelProvider.Factory
+/** TODO: 5. Buat class MainViewModelFactory extends ViewModelProvider.Factory
  * Class ini digunakan untuk passing variable ke constructor viewnidel
  */
 class MainViewModelFactory(private val wordRepos: WordRepos): ViewModelProvider.Factory {
