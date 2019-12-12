@@ -39,7 +39,7 @@ class AddWordActivity : AppCompatActivity() {
     }
 
     private fun addWord(){
-        val word = Word(edit_word.text.toString())
+        val word = Word(word =  edit_word.text.toString())
         val data = Intent().apply {
             putExtra(WORD, word)
         }
