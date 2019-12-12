@@ -10,7 +10,7 @@ import com.roomapps.ui.MainViewModelFactory
  */
 object Inject {
 
-    private fun provideWordRepos(context: Context): WordRepos {
+    fun provideWordRepos(context: Context): WordRepos {
         val wordDb = WordDatabase.getDatabase(context)
         return WordRepos(wordDb.wordDao())
     }

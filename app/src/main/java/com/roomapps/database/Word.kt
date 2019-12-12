@@ -8,7 +8,7 @@ import java.io.Serializable
 // TODO: 1. Buat entity
 
 @Entity(tableName = "tb_word")
-data class Word (@ColumnInfo(name = "word") var word: String): Serializable{
+data class Word (
     @PrimaryKey(autoGenerate = true)
-    var pkId: Int = 0
-}
+    @ColumnInfo(name = "id") var pkId: Int = 0,
+    @ColumnInfo(name = "word") var word: String): Serializable
